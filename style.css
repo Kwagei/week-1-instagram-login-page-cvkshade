@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;1,600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #fafafa;
+    font-family: 'Poppins', sans-serif;
+
+}
+.handle{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    
+
+}
+.logo {
+    width:inherit;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    
+}
+.container {
+    width: 25rem;
+}
+.one {
+    background-color: white;
+    height: 27rem;
+    margin-bottom: 1rem;
+    border: 1px solid rgb(216, 209, 209);
+    display: flex;
+    justify-content: center;
+    width: inherit;
+
+}
+.two {
+    background-color: white;
+    border: 1px solid gainsboro;
+    height: 3rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* Input Styles */
+
+input {
+    height: 2rem;
+    width: inherit;
+    display: block;
+    border-radius: 2px;
+    border: 1px solid gainsboro;
+    background-color: rgba(220, 220, 220, 0.103);
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+.wrapper {
+    width: 16rem;
+}
+.bottomin {
+    margin-bottom: 1rem;
+}
+
+button {
+    background-color:  #0094f64f;
+    width: inherit;
+    color: white;
+    height: 2rem;
+    border-radius: 4px;
+    margin-left: 5px;
+    
+
+}
+
+.altext {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.altext span {
+    width: 10px;
+    color: gainsboro;
+    font-size: 1rem;
+}
+.altlog{
+    text-align: center;
+}
+.altlog img {
+    width: 15px;
+}
+.altlog span {
+    padding-left: 5px;
+    color: #385185;
+    font-weight: 600;
+}
+
+.forgot {
+    text-align: center;
+    padding-top: 1rem;
+}
+.forgot a {
+    text-decoration: none;
+    color: #385185;
+}
+
+.signup a {
+    text-decoration: none;
+    color: #0095f6;
+    font-weight: 700;
+}
+
+.appintro {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.appstore {
+    display: flex;
+    justify-content: center;
+}
+
+.imgone {
+    width: 15rem;
+    height: 2.5rem;
+}
+footer ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+footer ul li {
+    padding: 45px 10px 5px 5px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: rgb(114, 110, 110);
+}
+
+.copyright {
+    text-align: center;
+    color: rgb(114, 110, 110);
+    padding-top: 1rem;
+}
